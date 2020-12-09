@@ -5,6 +5,7 @@ import Footer from './components/Footer'
 //Pagina
 import Inicio from './pages/Inicio'
 import AcercaDe from './pages/AcercaDe'
+import Proyectos from './pages/Proyectos'
 import Error from './pages/Error'
   
 
@@ -16,6 +17,7 @@ export default function app(){
       <Switch>
         <Route exact path="/" component={Inicio}/>
         <Route exact path="/acerca-de" component={AcercaDe}/>
+        <Route exact path="/infoProyectos" component={Proyectos}/>
         <Route component={Error}/>
       </Switch>
       <Footer/>
