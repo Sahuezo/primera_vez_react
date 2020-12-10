@@ -7,9 +7,10 @@ export default function Nav(){
             <Link to="/">Inicio||---||  </Link>
             <Link to="/acerca-de"> Acerca De||---||</Link>
             <Link to="/infoProyectos"> Proyectos en cuadrito||---||</Link>
+            
+            <br/><br/>
         </nav>
-        <br/><br/>
-        <hr/>
+       
         </>
 
     )
